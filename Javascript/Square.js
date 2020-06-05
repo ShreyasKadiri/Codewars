@@ -1,7 +1,7 @@
 /*Square
 Given an array of positive integers, find if the sum of the integers in the array is a perfect square. If it is a perfect square, return 
 the square root, otherwise return the sum. If an empty array is passed, return 0. To improve your problem solving experience, use the suggested 
-functions to solve the problem.
+functions to solve the problem.*/
 
 
 function squareRoot(numbers){
