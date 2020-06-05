@@ -1,4 +1,4 @@
-/*
+"""
 The year is 1214. One night, Pope Innocent III awakens to find the the archangel Gabriel floating before him. Gabriel thunders to the pope:
 Gather all of the learned men in Pisa, especially Leonardo Fibonacci. In order for the crusades in the holy lands to be successful, 
 these men must calculate the millionth number in Fibonacci's recurrence. Fail to do this, and your armies will never reclaim the holy land. It is His will.
@@ -7,7 +7,7 @@ He never was very good at math.He tries writing the number down, but because eve
 he cannot represent this number. If he only knew about the invention of zero, it might make this sort of thing easier.
 He decides to go back to bed. He consoles himself, The Lord would never challenge me thus; this must have been some deceit by the devil.
  A pretty horrendous nightmare, to be sure Pope Innocent III's armies would go on to conquer Constantinople (now Istanbul), but they would never reclaim the holy land as he desired.
-*/
+"""
 
 
 def calc(num):
