@@ -55,15 +55,3 @@ result+=answer[j];
 }
 return result; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
