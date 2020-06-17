@@ -34,15 +34,3 @@ return IntStream.rangeClosed(2, n).
        reduce(BigInteger::multiply).get().toString();
 }  
 }
-
-
-
-
-
-
-
-
-
-
-
-
