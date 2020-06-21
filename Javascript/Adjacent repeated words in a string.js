@@ -28,18 +28,3 @@ let countAdjacentPairs=str =>{
   const  curr= str.match(/\b(\w+)(\s+\1)+\b/ig);
   return (curr||[]).length;
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
