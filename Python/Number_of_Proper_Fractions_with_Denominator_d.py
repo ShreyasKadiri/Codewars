@@ -20,24 +20,11 @@ Be ready to handle big numbers.
 
 """
 def proper_fractions(n):
-    phi = n > 1 and n
-    for p in range(2, int(n ** .5) + 1):
-        if not n % p:
-            phi -= phi // p
-            while not n % p:
-                n //= p
-    if n > 1: phi -= phi // n
-    return phi
-
-
-
-
-
-
-
-
-
-
-
-
-
+    res=n>1 and n
+    for i in range(2,int(n**.5)+ 1):
+        if not n%i:
+            res-=res//i
+            while not n%i:
+                n//=i
+    if n>1:res-=res// n
+    return res
