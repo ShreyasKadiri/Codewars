@@ -40,10 +40,3 @@ def find_even_index(arr):
             return i 
         leftsum+=num 
     return -1
-
-
-
-
-
-
-
