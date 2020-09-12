@@ -8,7 +8,6 @@ balanced_parens(2) => ["()()","(())"]
 balanced_parens(3) => ["()()()","(())()","()(())","(()())","((()))"]
  """
 
-
 def balanced_parens(n):
     table=[['']]
     for j in range(1,n+1):
